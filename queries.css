@@ -1,0 +1,152 @@
+/*big tablets from 0 to 1200px*/
+@media only screen and (max-width: 1200px) {
+    .row { padding: 0 2%; }
+
+
+    h1 {
+    text-align: left;
+    font-size: 200%;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+      }
+    .hero-text-box {    
+    width: 80%;
+    padding: 0 2%;
+    
+      }
+    
+    main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li,
+.logos li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #4886b8;
+    text-decoration: none;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #47c7ae;
+    border-bottom: 2px solid #47c7ae;
+    
+}
+
+}
+
+/*small tablets to big tablets on portrait mode from 0 to 1023px*/
+@media only screen and (max-width: 1023px) {  
+    body { font-size: 18px;}
+    section { padding: 60px 0;}
+    
+    .hero-text-box { padding: 0 4%; }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 200;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #4886b8;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+    margin-right: 20px;
+}
+    
+}
+
+/*small phones to tablets 0 to 767px*/
+@media only screen and (max-width: 767px) {
+       
+        body { font-size: 18px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text-box { 
+        top: 20%;
+    }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+     
+    .main-nav { display: none; }   
+    
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        color: #4886b8;
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 80%;
+    }
+    
+    .foot-logo {
+        height: 30px;
+        width: auto;
+        
+    }
+    
+    .copy {
+        text-align: center;
+    }
+    
+      .btn:link,
+.btn:visited {
+    display: block;
+    padding: 10px 30px;
+    font-size: 80%;
+    font-weight: 100;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #4886b8;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+    width: 80%;
+}
+    
+}
