@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+     
 
 }
 
@@ -13,9 +14,6 @@ body {
     font-weight: 300;
     text-rendering: optimizeLegibility;
     overflow: auto;
-    margin:0px;
-
-
 }
 
 /*------------REUSABLE-----------------*/
@@ -33,7 +31,7 @@ section {
     padding: 1%;
 }
 
-header { border:1px black solid; }
+.col{ margin-top: 0; }
 /*----------HEADERS-----------------------*/
 
 h1,h2,h3 {
@@ -113,6 +111,8 @@ h3 {
     font-weight: 400;
     letter-spacing: 2px;
     text-align:left;
+    margin-top: 60px;
+    margin-bottom: 10px;
 }
 
 
@@ -198,6 +198,7 @@ footer {
     background-color: #1c2431;
     padding: 30px;
     font-size: 80%;
+    
 }
 
 .footer-nav {

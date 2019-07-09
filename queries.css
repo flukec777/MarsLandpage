@@ -148,5 +148,17 @@
     margin-top: 10px;
     width: 80%;
 }
+
+.game-feature .btn-full:link,
+.game-feature .btn-full:visited {
+    width: 100%;
+}
+
+.contact-me .btn-full:link,
+.contact-me .btn-full:visited {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
     
 }
